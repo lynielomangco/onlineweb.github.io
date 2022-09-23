@@ -72,6 +72,11 @@ span{
 }
 #bars{
     background: black;
+    transition: 0.2s;
+}
+#bars:hover{
+    background: #00eaff;
+    color: black;
 }
 #check:checked ~ .container1{
     transform: translateX(0);
